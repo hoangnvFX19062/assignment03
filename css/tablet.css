@@ -1,0 +1,81 @@
+@media (min-width: 768px) and (max-width: 992px) {
+  #banner {
+    width: 1000px;
+    height: 500px;
+  }
+  #banner h1 {
+    font-size: 32px;
+  }
+  #banner span {
+    font-size: 28px;
+  }
+  #nav-bar .container img {
+    display: none;
+  }
+  #nav-bar .container a {
+    font-size: 24px;
+  }
+  /* Thông tin cá nhân */
+
+  #target h1 {
+    font-size: 24px;
+  }
+  #target p {
+    font-size: 16px;
+  }
+  #personal-info h1 {
+    font-size: 24px;
+  }
+  #personal-info ul,
+  #personal-info span {
+    font-size: 16px;
+  }
+
+  /* chứng chỉ */
+
+  .certificate-web img,
+  .certificate-java img,
+  .certificate-database img {
+    padding-left: 10px;
+    width: 150px;
+  }
+  .certificate-web ul,
+  .certificate-java ul,
+  .certificate-database ul {
+    display: block;
+    font-size: 10px;
+  }
+  /* Dự án */
+  #project .container img {
+    width: 200px;
+    height: 250px;
+  }
+
+  .web-name {
+    width: 200px;
+    height: 90px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid #adb5bd;
+    padding: 20px 20px;
+    color: #343a40;
+  }
+  .web-info {
+    border: 1px solid #adb5bd;
+    padding: 20px 20px;
+    color: #868e96;
+    width: 200px;
+  }
+
+  .web-info p {
+    display: inline-block;
+  }
+  #project table {
+    width: 200px;
+    height: 500px;
+  }
+
+  #footer .container i {
+    font-size: 24px;
+  }
+}

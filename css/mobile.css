@@ -1,0 +1,79 @@
+@media (max-width: 768px) {
+  #banner {
+    width: 700px;
+    height: 300px;
+  }
+  #banner h1 {
+    font-size: 24px;
+  }
+  #banner span {
+    font-size: 22px;
+  }
+
+  /* navbar */
+  #nav-bar .container img {
+    display: none;
+  }
+  #nav-bar .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+  #nav-bar .container a {
+    border: none;
+    font-size: 32px;
+  }
+  /* chứng chỉ- giải thưởng */
+  .certificate-web img,
+  .certificate-java img,
+  .certificate-database img {
+    padding-left: 10px;
+
+    width: 150px;
+  }
+  .certificate-web ul,
+  .certificate-java ul,
+  .certificate-database ul {
+    display: block;
+    font-size: 10px;
+  }
+  .certificate-web,
+  .certificate-java,
+  .certificate-database {
+    border-left: none;
+    padding-left: 150px;
+  }
+
+  /* Dự án */
+  #project .container img {
+    width: 350px;
+    height: 400px;
+  }
+
+  .web-name {
+    width: 350px;
+    height: 90px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid #adb5bd;
+    padding: 20px 20px;
+    color: #343a40;
+  }
+  .web-info {
+    border: 1px solid #adb5bd;
+    padding: 20px 20px;
+    color: #868e96;
+    width: 350px;
+  }
+
+  .web-info p {
+    display: inline-block;
+  }
+  #project table {
+    width: 350px;
+    height: 500px;
+  }
+  #footer .container i {
+    font-size: 12px;
+  }
+}
